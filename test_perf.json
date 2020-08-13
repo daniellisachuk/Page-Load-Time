@@ -1,0 +1,302 @@
+[
+    [
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Network.loadingFinished",
+                "params": {
+                    "encodedDataLength": 0,
+                    "requestId": "65546EF0DDE876A37C8CC1EC9D1C69F4",
+                    "shouldReportCorbBlocking": false,
+                    "timestamp": 27315.794862
+                }
+            },
+            "timestamp": 1594045413460
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.frameNavigated",
+                "params": {
+                    "frame": {
+                        "id": "F4266D1BDEACA8E7B900BEA6F74A8D39",
+                        "loaderId": "65546EF0DDE876A37C8CC1EC9D1C69F4",
+                        "mimeType": "text/plain",
+                        "securityOrigin": "://",
+                        "url": "data:,"
+                    }
+                }
+            },
+            "timestamp": 1594045413460
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.loadEventFired",
+                "params": {
+                    "timestamp": 27315.913755
+                }
+            },
+            "timestamp": 1594045413461
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.frameStoppedLoading",
+                "params": {
+                    "frameId": "F4266D1BDEACA8E7B900BEA6F74A8D39"
+                }
+            },
+            "timestamp": 1594045413461
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.domContentEventFired",
+                "params": {
+                    "timestamp": 27315.91424
+                }
+            },
+            "timestamp": 1594045413461
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.frameResized",
+                "params": {}
+            },
+            "timestamp": 1594045413461
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Network.requestWillBeSent",
+                "params": {
+                    "documentURL": "https://www.amitdvir.com/",
+                    "frameId": "F4266D1BDEACA8E7B900BEA6F74A8D39",
+                    "hasUserGesture": false,
+                    "initiator": {
+                        "type": "other"
+                    },
+                    "loaderId": "1765C38F226E874A948EA64340A6CFD4",
+                    "request": {
+                        "headers": {
+                            "Upgrade-Insecure-Requests": "1",
+                            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/74.0.3729.169 Chrome/74.0.3729.169 Safari/537.36"
+                        },
+                        "initialPriority": "VeryHigh",
+                        "method": "GET",
+                        "mixedContentType": "none",
+                        "referrerPolicy": "no-referrer-when-downgrade",
+                        "url": "https://www.amitdvir.com/"
+                    },
+                    "requestId": "1765C38F226E874A948EA64340A6CFD4",
+                    "timestamp": 27315.952234,
+                    "type": "Document",
+                    "wallTime": 1594045413.483299
+                }
+            },
+            "timestamp": 1594045413483
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Network.responseReceived",
+                "params": {
+                    "frameId": "F4266D1BDEACA8E7B900BEA6F74A8D39",
+                    "loaderId": "1765C38F226E874A948EA64340A6CFD4",
+                    "requestId": "1765C38F226E874A948EA64340A6CFD4",
+                    "response": {
+                        "connectionId": 29,
+                        "connectionReused": false,
+                        "encodedDataLength": 143,
+                        "fromDiskCache": false,
+                        "fromServiceWorker": false,
+                        "headers": {
+                            "accept-ranges": "bytes",
+                            "content-encoding": "gzip",
+                            "content-length": "945",
+                            "content-type": "text/html",
+                            "date": "Mon, 06 Jul 2020 14:23:38 GMT",
+                            "etag": "\"138af68-7ab-588789a5af12b-gzip\"",
+                            "last-modified": "Thu, 09 May 2019 18:27:30 GMT",
+                            "server": "Apache",
+                            "status": "200",
+                            "vary": "Accept-Encoding,User-Agent"
+                        },
+                        "mimeType": "text/html",
+                        "protocol": "h2",
+                        "remoteIPAddress": "160.153.129.23",
+                        "remotePort": 443,
+                        "requestHeaders": {
+                            ":authority": "www.amitdvir.com",
+                            ":method": "GET",
+                            ":path": "/",
+                            ":scheme": "https",
+                            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+                            "accept-encoding": "gzip, deflate, br",
+                            "accept-language": "en-US,en;q=0.9",
+                            "upgrade-insecure-requests": "1",
+                            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/74.0.3729.169 Chrome/74.0.3729.169 Safari/537.36"
+                        },
+                        "securityDetails": {
+                            "certificateId": 0,
+                            "certificateTransparencyCompliance": "unknown",
+                            "cipher": "AES_256_GCM",
+                            "issuer": "Starfield Secure Certificate Authority - G2",
+                            "keyExchange": "ECDHE_RSA",
+                            "keyExchangeGroup": "X25519",
+                            "protocol": "TLS 1.2",
+                            "sanList": [
+                                "*.prod.ams3.secureserver.net",
+                                "prod.ams3.secureserver.net"
+                            ],
+                            "signedCertificateTimestampList": [],
+                            "subjectName": "*.prod.ams3.secureserver.net",
+                            "validFrom": 1579028183,
+                            "validTo": 1642186583
+                        },
+                        "securityState": "insecure",
+                        "status": 200,
+                        "statusText": "",
+                        "timing": {
+                            "connectEnd": 5246.04,
+                            "connectStart": 5089.661,
+                            "dnsEnd": 5089.661,
+                            "dnsStart": 504.229,
+                            "proxyEnd": -1,
+                            "proxyStart": -1,
+                            "pushEnd": 0,
+                            "pushStart": 0,
+                            "receiveHeadersEnd": 5336.611,
+                            "requestTime": 27315.953137,
+                            "sendEnd": 5246.274,
+                            "sendStart": 5246.184,
+                            "sslEnd": 5246.025,
+                            "sslStart": 5157.168,
+                            "workerReady": -1,
+                            "workerStart": -1
+                        },
+                        "url": "https://www.amitdvir.com/"
+                    },
+                    "timestamp": 27321.290574,
+                    "type": "Document"
+                }
+            },
+            "timestamp": 1594045418822
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.frameStartedLoading",
+                "params": {
+                    "frameId": "F4266D1BDEACA8E7B900BEA6F74A8D39"
+                }
+            },
+            "timestamp": 1594045418827
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Network.dataReceived",
+                "params": {
+                    "dataLength": 1963,
+                    "encodedDataLength": 0,
+                    "requestId": "1765C38F226E874A948EA64340A6CFD4",
+                    "timestamp": 27321.294968
+                }
+            },
+            "timestamp": 1594045418843
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.frameNavigated",
+                "params": {
+                    "frame": {
+                        "id": "F4266D1BDEACA8E7B900BEA6F74A8D39",
+                        "loaderId": "1765C38F226E874A948EA64340A6CFD4",
+                        "mimeType": "text/html",
+                        "securityOrigin": "https://www.amitdvir.com",
+                        "url": "https://www.amitdvir.com/"
+                    }
+                }
+            },
+            "timestamp": 1594045418844
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Network.loadingFinished",
+                "params": {
+                    "encodedDataLength": 1097,
+                    "requestId": "1765C38F226E874A948EA64340A6CFD4",
+                    "shouldReportCorbBlocking": false,
+                    "timestamp": 27321.290261
+                }
+            },
+            "timestamp": 1594045418845
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.loadEventFired",
+                "params": {
+                    "timestamp": 27321.305741
+                }
+            },
+            "timestamp": 1594045418904
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.frameStoppedLoading",
+                "params": {
+                    "frameId": "F4266D1BDEACA8E7B900BEA6F74A8D39"
+                }
+            },
+            "timestamp": 1594045418906
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Page.domContentEventFired",
+                "params": {
+                    "timestamp": 27321.370911
+                }
+            },
+            "timestamp": 1594045418906
+        },
+        {
+            "level": "INFO",
+            "message": {
+                "method": "Network.requestWillBeSent",
+                "params": {
+                    "documentURL": "https://www.amitdvir.com/",
+                    "frameId": "F4266D1BDEACA8E7B900BEA6F74A8D39",
+                    "hasUserGesture": false,
+                    "initiator": {
+                        "type": "other"
+                    },
+                    "loaderId": "1765C38F226E874A948EA64340A6CFD4",
+                    "request": {
+                        "headers": {
+                            "Referer": "https://www.amitdvir.com/",
+                            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/74.0.3729.169 Chrome/74.0.3729.169 Safari/537.36"
+                        },
+                        "initialPriority": "High",
+                        "method": "GET",
+                        "mixedContentType": "none",
+                        "referrerPolicy": "no-referrer-when-downgrade",
+                        "url": "https://www.amitdvir.com/favicon.ico"
+                    },
+                    "requestId": "1000015934.2",
+                    "timestamp": 27321.374448,
+                    "type": "Other",
+                    "wallTime": 1594045418.90551
+                }
+            },
+            "timestamp": 1594045418908
+        }
+    ]
+]

@@ -1,0 +1,2 @@
+FireFox does not support "performane" logging, only Chrome
+No need to extract HAR with "performance" logging
