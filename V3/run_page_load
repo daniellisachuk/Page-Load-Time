@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if (( $# != 2 ))
+then
+  echo Please Specify Delay \& Loss
+  exit 1
+fi
+
+python3 PageLoadURLs.py -i wlp2s0 -r Data/top500Domains.csv -v -d $1 -l $2

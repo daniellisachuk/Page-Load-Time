@@ -1,0 +1,16 @@
+# 20.11
+    - sent message to OUR_QoE asking for the tshark command used in saimon's code
+        -- if they answer with yes, use saimon's command to construct your own for use cases balow
+        -- else, find out tshark (-e)? options and try use cases above below
+            --- use cases:
+                    1. tcp.analysis.duplicate_ack
+                    2. tcp.analysis.retransmission
+
+    - if doesn't work, build func as amit specified.
+        -- count seq. and ack. numbers
+        -- follow wireshark's instructions on how to detect
+           anomalies in packets using those numbers
+
+########################################################################################################################
+
+#

@@ -1,0 +1,30 @@
+1597337996971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wYHT3AygwRde"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1597338005474	Marionette	INFO	Listening on port 40005
+1597338005497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597338040395	Marionette	INFO	Stopped listening on port 40005
+1597338085814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FkdP8YoNiQKl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1597338090508	Marionette	INFO	Listening on port 41619
+1597338090548	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597338105181	Marionette	INFO	Stopped listening on port 41619
+1597338118362	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AzIzpIBcDWUF"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597338125322	Marionette	INFO	Listening on port 43943
+1597338125386	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1597338583600	Marionette	INFO	Stopped listening on port 43943
+1598955774525	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2t0ekv3Ndbc2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598955779967	Marionette	INFO	Listening on port 39745
+1598955780063	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598957616636	Marionette	INFO	Stopped listening on port 39745
+1598957648881	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-private" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NWQgZtTSYYoM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1598957652123	Marionette	INFO	Listening on port 37051
+1598957652196	Marionette	WARN	TLS certificate errors will be ignored for this session
+1598957664838	Marionette	INFO	Stopped listening on port 37051

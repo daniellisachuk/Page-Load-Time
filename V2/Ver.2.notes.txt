@@ -1,0 +1,25 @@
+FireFox does not support "performane" logging, only Chrome
+No need to extract HAR with "performance" logging if
+pref-log is complete
+
+###########################################################
+weird behaviour in log files:
+    not all responses have requests
+        maybe not logged?
+        maybe didn't exist?
+
+###########################################################
+sometime logs fields and sometimes not. eg:
+    test5.json
+        in redirect field - no responseTime field.
+
+###########################################################
+
+Categorize website type as feature to ML
+
+ML Machine:
+    - Model 1
+        I: tp, loss, delay
+        O: label
+
+    - Model 2 (maybe RNN-LSTM)

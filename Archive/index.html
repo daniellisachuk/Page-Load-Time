@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Page Load POC</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <p>start time is:</p>
+    <div id="startT"></div>
+
+    <p>end time is:</p>
+    <div id="endT"></div>
+
+    <p>total time is:</p>
+    <div id="totalT"></div>
+
+    <button type="button" id="button">Load</button>
+    <input type="text" id="input">
+
+    <iframe id="frame" src="" width="500px" height="500px"></iframe>
+
+    <div id="times"></div>
+
+    <script type="text/javascript">
+      var startTime;
+      var endTime;
+      var totalTime;
+
+      $("#button").click(function() {
+        cleanup();
+        startTime = Date.now();
+        $("#startT").html(Date(startTime).toString());
+        var url = $("#input").val();
+        $("#frame").attr("src", url);
+        $("#frame").attr("onload", "frameLoaded()");
+      })
+
+      function cleanup(){
+        $("#startT").html("");
+        $("#endT").html("");
+        $("#totalT").html("");
+        $("#totalT").hide();
+      }
+
+      function frameLoaded(){
+        endTime = Date.now();
+        $("#endT").html(Date(endT).toString());
+        totalTime = endTime - startTime;
+        $("#totalT").html(totalTime);
+        $("#totalT").show();
+        $("#times").html($("#times").html() + "<br>" + $("#totalT").html())
+      }
+
+      </script>
+  </body>
+</html>

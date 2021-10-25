@@ -1,0 +1,3993 @@
+[
+    {
+        "timestamp": 1598955451776,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "775D82B758A02E23998A5A33C24B478E",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67024.386832
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451776,
+        "message": {
+            "method": "Page.loadEventFired",
+            "params": {
+                "timestamp": 67024.423563
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451776,
+        "message": {
+            "method": "Page.frameStoppedLoading",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451776,
+        "message": {
+            "method": "Page.domContentEventFired",
+            "params": {
+                "timestamp": 67024.42418
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451781,
+        "message": {
+            "method": "Page.frameResized",
+            "params": {}
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451830,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://www.godaddy.com/",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "other"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Upgrade-Insecure-Requests": "1",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "VeryHigh",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://www.godaddy.com/"
+                },
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67024.483872,
+                "type": "Document",
+                "wallTime": 1598955451.830164
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451933,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [],
+                "headers": {
+                    ":authority": "www.godaddy.com",
+                    ":method": "GET",
+                    ":path": "/",
+                    ":scheme": "https",
+                    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "sec-fetch-dest": "document",
+                    "sec-fetch-mode": "navigate",
+                    "sec-fetch-site": "none",
+                    "sec-fetch-user": "?1",
+                    "upgrade-insecure-requests": "1",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451954,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "content-length": "0",
+                    "date": "Tue, 01 Sep 2020 10:17:31 GMT",
+                    "location": "https://il.godaddy.com/en/",
+                    "server": "AkamaiGHost",
+                    "set-cookie": "market=en-IL; expires=Wed, 01-Sep-2021 10:17:31 GMT; path=/; domain=.godaddy.com\nAKA_A2=A; expires=Tue, 01-Sep-2020 11:17:31 GMT; path=/; domain=godaddy.com; secure; HttpOnly",
+                    "status": "302",
+                    "x-arc": "2\n6",
+                    "x-frame-options": "DENY"
+                },
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451957,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en/",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "other"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "redirectResponse": {
+                    "connectionId": 25,
+                    "connectionReused": false,
+                    "encodedDataLength": 243,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "content-length": "0",
+                        "date": "Tue, 01 Sep 2020 10:17:31 GMT",
+                        "location": "https://il.godaddy.com/en/",
+                        "server": "AkamaiGHost",
+                        "set-cookie": "market=en-IL; expires=Wed, 01-Sep-2021 10:17:31 GMT; path=/; domain=.godaddy.com\nAKA_A2=A; expires=Tue, 01-Sep-2020 11:17:31 GMT; path=/; domain=godaddy.com; secure; HttpOnly",
+                        "status": "302",
+                        "x-arc": "2\n6",
+                        "x-frame-options": "DENY"
+                    },
+                    "mimeType": "",
+                    "protocol": "h2",
+                    "remoteIPAddress": "92.122.128.207",
+                    "remotePort": 443,
+                    "requestHeaders": {
+                        ":authority": "www.godaddy.com",
+                        ":method": "GET",
+                        ":path": "/",
+                        ":scheme": "https",
+                        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                        "accept-encoding": "gzip, deflate, br",
+                        "accept-language": "en-US,en;q=0.9",
+                        "sec-fetch-dest": "document",
+                        "sec-fetch-mode": "navigate",
+                        "sec-fetch-site": "none",
+                        "sec-fetch-user": "?1",
+                        "upgrade-insecure-requests": "1",
+                        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "responseTime": 1598955451953.46,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "unknown",
+                        "cipher": "AES_256_GCM",
+                        "issuer": "Go Daddy Secure Certificate Authority - G2",
+                        "keyExchange": "ECDHE_RSA",
+                        "keyExchangeGroup": "P-256",
+                        "protocol": "TLS 1.2",
+                        "sanList": [
+                            "*.godaddy.com",
+                            "godaddy.com"
+                        ],
+                        "signedCertificateTimestampList": [],
+                        "subjectName": "*.godaddy.com",
+                        "validFrom": 1550011144,
+                        "validTo": 1613169544
+                    },
+                    "securityState": "secure",
+                    "status": 302,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": 100.818,
+                        "connectStart": 74.265,
+                        "dnsEnd": 74.265,
+                        "dnsStart": 0.398,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 121.354,
+                        "requestTime": 67024.485978,
+                        "sendEnd": 101.209,
+                        "sendStart": 100.994,
+                        "sslEnd": 100.806,
+                        "sslStart": 83.84,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://www.godaddy.com/"
+                },
+                "request": {
+                    "headers": {
+                        "Upgrade-Insecure-Requests": "1",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "VeryHigh",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://il.godaddy.com/en/"
+                },
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67024.61101,
+                "type": "Document",
+                "wallTime": 1598955451.957354
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451961,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.953634,
+                            "httpOnly": false,
+                            "name": "market",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "en-IL"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1598959051.953713,
+                            "httpOnly": true,
+                            "name": "AKA_A2",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": true,
+                            "session": false,
+                            "size": 7,
+                            "value": "A"
+                        }
+                    }
+                ],
+                "headers": {
+                    ":authority": "il.godaddy.com",
+                    ":method": "GET",
+                    ":path": "/en/",
+                    ":scheme": "https",
+                    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "cookie": "market=en-IL; AKA_A2=A",
+                    "sec-fetch-dest": "document",
+                    "sec-fetch-mode": "navigate",
+                    "sec-fetch-site": "none",
+                    "sec-fetch-user": "?1",
+                    "upgrade-insecure-requests": "1",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451978,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "content-length": "0",
+                    "date": "Tue, 01 Sep 2020 10:17:31 GMT",
+                    "location": "https://il.godaddy.com/en",
+                    "server": "AkamaiGHost",
+                    "set-cookie": "currency=ILS; expires=Wed, 01-Sep-2021 10:17:31 GMT; path=/; domain=.godaddy.com",
+                    "status": "301",
+                    "x-arc": "6",
+                    "x-frame-options": "DENY",
+                    "x-url-scheme": "subdomain"
+                },
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451979,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "other"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "redirectResponse": {
+                    "connectionId": 25,
+                    "connectionReused": true,
+                    "encodedDataLength": 182,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "content-length": "0",
+                        "date": "Tue, 01 Sep 2020 10:17:31 GMT",
+                        "location": "https://il.godaddy.com/en",
+                        "server": "AkamaiGHost",
+                        "set-cookie": "currency=ILS; expires=Wed, 01-Sep-2021 10:17:31 GMT; path=/; domain=.godaddy.com",
+                        "status": "301",
+                        "x-arc": "6",
+                        "x-frame-options": "DENY",
+                        "x-url-scheme": "subdomain"
+                    },
+                    "mimeType": "",
+                    "protocol": "h2",
+                    "remoteIPAddress": "92.122.128.207",
+                    "remotePort": 443,
+                    "requestHeaders": {
+                        ":authority": "il.godaddy.com",
+                        ":method": "GET",
+                        ":path": "/en/",
+                        ":scheme": "https",
+                        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                        "accept-encoding": "gzip, deflate, br",
+                        "accept-language": "en-US,en;q=0.9",
+                        "cookie": "market=en-IL; AKA_A2=A",
+                        "sec-fetch-dest": "document",
+                        "sec-fetch-mode": "navigate",
+                        "sec-fetch-site": "none",
+                        "sec-fetch-user": "?1",
+                        "upgrade-insecure-requests": "1",
+                        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "responseTime": 1598955451977.581,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "unknown",
+                        "cipher": "AES_256_GCM",
+                        "issuer": "Go Daddy Secure Certificate Authority - G2",
+                        "keyExchange": "ECDHE_RSA",
+                        "keyExchangeGroup": "P-256",
+                        "protocol": "TLS 1.2",
+                        "sanList": [
+                            "*.godaddy.com",
+                            "godaddy.com"
+                        ],
+                        "signedCertificateTimestampList": [],
+                        "subjectName": "*.godaddy.com",
+                        "validFrom": 1550011144,
+                        "validTo": 1613169544
+                    },
+                    "securityState": "secure",
+                    "status": 301,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 19.873,
+                        "requestTime": 67024.61155,
+                        "sendEnd": 1.467,
+                        "sendStart": 1.253,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://il.godaddy.com/en/"
+                },
+                "request": {
+                    "headers": {
+                        "Upgrade-Insecure-Requests": "1",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "VeryHigh",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67024.632366,
+                "type": "Document",
+                "wallTime": 1598955451.978728
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955451979,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.953634,
+                            "httpOnly": false,
+                            "name": "market",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "en-IL"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1598959051.953713,
+                            "httpOnly": true,
+                            "name": "AKA_A2",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": true,
+                            "session": false,
+                            "size": 7,
+                            "value": "A"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.977722,
+                            "httpOnly": false,
+                            "name": "currency",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "ILS"
+                        }
+                    }
+                ],
+                "headers": {
+                    ":authority": "il.godaddy.com",
+                    ":method": "GET",
+                    ":path": "/en",
+                    ":scheme": "https",
+                    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "cookie": "market=en-IL; AKA_A2=A; currency=ILS",
+                    "sec-fetch-dest": "document",
+                    "sec-fetch-mode": "navigate",
+                    "sec-fetch-site": "none",
+                    "sec-fetch-user": "?1",
+                    "upgrade-insecure-requests": "1",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452036,
+        "message": {
+            "method": "Page.frameResized",
+            "params": {}
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452605,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "cache-control": "max-age=0, no-cache, no-store",
+                    "content-encoding": "gzip",
+                    "content-length": "80465",
+                    "content-type": "text/html; charset=utf-8",
+                    "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                    "expires": "Tue, 01 Sep 2020 10:17:32 GMT",
+                    "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"COM CNT DEM FIN GOV INT NAV ONL PHY PRE PUR STA UNI IDC CAO OTI DSP COR CUR i OUR IND\"",
+                    "pragma": "no-cache",
+                    "server": "Microsoft-IIS/10.0",
+                    "set-cookie": "xpdpp3=B; domain=godaddy.com; expires=Sat, 31-Oct-2020 10:17:32 GMT; path=/\nvisitor=vid=f9bac7e4-17c4-4af0-b580-01184eea73aa; domain=godaddy.com; expires=Wed, 01-Sep-2021 10:17:32 GMT; path=/\nfb_sessiontraffic=S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0; domain=godaddy.com; path=/\npathway=f9bac7e4-17c4-4af0-b580-01184eea73aa; domain=godaddy.com; path=/",
+                    "status": "200",
+                    "vary": "Accept-Encoding",
+                    "x-arc": "6",
+                    "x-frame-options": "DENY",
+                    "x-powered-by": "ASP.NET\nARR/3.0",
+                    "x-url-scheme": "subdomain"
+                },
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452609,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "response": {
+                    "connectionId": 25,
+                    "connectionReused": true,
+                    "encodedDataLength": 669,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "cache-control": "max-age=0, no-cache, no-store",
+                        "content-encoding": "gzip",
+                        "content-length": "80465",
+                        "content-type": "text/html; charset=utf-8",
+                        "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                        "expires": "Tue, 01 Sep 2020 10:17:32 GMT",
+                        "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"COM CNT DEM FIN GOV INT NAV ONL PHY PRE PUR STA UNI IDC CAO OTI DSP COR CUR i OUR IND\"",
+                        "pragma": "no-cache",
+                        "server": "Microsoft-IIS/10.0",
+                        "set-cookie": "xpdpp3=B; domain=godaddy.com; expires=Sat, 31-Oct-2020 10:17:32 GMT; path=/\nvisitor=vid=f9bac7e4-17c4-4af0-b580-01184eea73aa; domain=godaddy.com; expires=Wed, 01-Sep-2021 10:17:32 GMT; path=/\nfb_sessiontraffic=S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0; domain=godaddy.com; path=/\npathway=f9bac7e4-17c4-4af0-b580-01184eea73aa; domain=godaddy.com; path=/",
+                        "status": "200",
+                        "vary": "Accept-Encoding",
+                        "x-arc": "6",
+                        "x-frame-options": "DENY",
+                        "x-powered-by": "ASP.NET\nARR/3.0",
+                        "x-url-scheme": "subdomain"
+                    },
+                    "mimeType": "text/html",
+                    "protocol": "h2",
+                    "remoteIPAddress": "92.122.128.207",
+                    "remotePort": 443,
+                    "requestHeaders": {
+                        ":authority": "il.godaddy.com",
+                        ":method": "GET",
+                        ":path": "/en",
+                        ":scheme": "https",
+                        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+                        "accept-encoding": "gzip, deflate, br",
+                        "accept-language": "en-US,en;q=0.9",
+                        "cookie": "market=en-IL; AKA_A2=A; currency=ILS",
+                        "sec-fetch-dest": "document",
+                        "sec-fetch-mode": "navigate",
+                        "sec-fetch-site": "none",
+                        "sec-fetch-user": "?1",
+                        "upgrade-insecure-requests": "1",
+                        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "responseTime": 1598955452603.025,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "unknown",
+                        "cipher": "AES_256_GCM",
+                        "issuer": "Go Daddy Secure Certificate Authority - G2",
+                        "keyExchange": "ECDHE_RSA",
+                        "keyExchangeGroup": "P-256",
+                        "protocol": "TLS 1.2",
+                        "sanList": [
+                            "*.godaddy.com",
+                            "godaddy.com"
+                        ],
+                        "signedCertificateTimestampList": [],
+                        "subjectName": "*.godaddy.com",
+                        "validFrom": 1550011144,
+                        "validTo": 1613169544
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 624.241,
+                        "requestTime": 67024.632832,
+                        "sendEnd": 0.413,
+                        "sendStart": 0.253,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://il.godaddy.com/en"
+                },
+                "timestamp": 67025.262293,
+                "type": "Document"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452614,
+        "message": {
+            "method": "Page.frameStartedLoading",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452631,
+        "message": {
+            "method": "Page.frameNavigated",
+            "params": {
+                "frame": {
+                    "id": "D1D482F11081F9CFD81E05514104E228",
+                    "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                    "mimeType": "text/html",
+                    "securityOrigin": "https://il.godaddy.com",
+                    "url": "https://il.godaddy.com/en"
+                }
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452649,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 65536,
+                "encodedDataLength": 0,
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67025.302647
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452653,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.953634,
+                            "httpOnly": false,
+                            "name": "market",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "en-IL"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1598959051.953713,
+                            "httpOnly": true,
+                            "name": "AKA_A2",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": true,
+                            "session": false,
+                            "size": 7,
+                            "value": "A"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.977722,
+                            "httpOnly": false,
+                            "name": "currency",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "ILS"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1604139452.603428,
+                            "httpOnly": false,
+                            "name": "xpdpp3",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 7,
+                            "value": "B"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491452.603635,
+                            "httpOnly": false,
+                            "name": "visitor",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 47,
+                            "value": "vid=f9bac7e4-17c4-4af0-b580-01184eea73aa"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": -1,
+                            "httpOnly": false,
+                            "name": "fb_sessiontraffic",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": true,
+                            "size": 133,
+                            "value": "S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": -1,
+                            "httpOnly": false,
+                            "name": "pathway",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": true,
+                            "size": 43,
+                            "value": "f9bac7e4-17c4-4af0-b580-01184eea73aa"
+                        }
+                    }
+                ],
+                "headers": {
+                    ":authority": "il.godaddy.com",
+                    ":method": "GET",
+                    ":path": "/en/assets/ux/fonts/gd-sage/1.0/gd-sage-bold.woff2",
+                    ":scheme": "https",
+                    "accept": "*/*",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "cookie": "market=en-IL; AKA_A2=A; currency=ILS; xpdpp3=B; visitor=vid=f9bac7e4-17c4-4af0-b580-01184eea73aa; fb_sessiontraffic=S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0; pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa",
+                    "origin": "https://il.godaddy.com",
+                    "referer": "https://il.godaddy.com/en",
+                    "sec-fetch-dest": "font",
+                    "sec-fetch-mode": "cors",
+                    "sec-fetch-site": "same-origin",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.3"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452653,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.953634,
+                            "httpOnly": false,
+                            "name": "market",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "en-IL"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1598959051.953713,
+                            "httpOnly": true,
+                            "name": "AKA_A2",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": true,
+                            "session": false,
+                            "size": 7,
+                            "value": "A"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.977722,
+                            "httpOnly": false,
+                            "name": "currency",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "ILS"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1604139452.603428,
+                            "httpOnly": false,
+                            "name": "xpdpp3",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 7,
+                            "value": "B"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491452.603635,
+                            "httpOnly": false,
+                            "name": "visitor",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 47,
+                            "value": "vid=f9bac7e4-17c4-4af0-b580-01184eea73aa"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": -1,
+                            "httpOnly": false,
+                            "name": "fb_sessiontraffic",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": true,
+                            "size": 133,
+                            "value": "S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": -1,
+                            "httpOnly": false,
+                            "name": "pathway",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": true,
+                            "size": 43,
+                            "value": "f9bac7e4-17c4-4af0-b580-01184eea73aa"
+                        }
+                    }
+                ],
+                "headers": {
+                    ":authority": "il.godaddy.com",
+                    ":method": "GET",
+                    ":path": "/en/assets/ux/fonts/sherpa/2.0/gdsherpa-vf.woff2",
+                    ":scheme": "https",
+                    "accept": "*/*",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "cookie": "market=en-IL; AKA_A2=A; currency=ILS; xpdpp3=B; visitor=vid=f9bac7e4-17c4-4af0-b580-01184eea73aa; fb_sessiontraffic=S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0; pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa",
+                    "origin": "https://il.godaddy.com",
+                    "referer": "https://il.godaddy.com/en",
+                    "sec-fetch-dest": "font",
+                    "sec-fetch-mode": "cors",
+                    "sec-fetch-site": "same-origin",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.4"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452654,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "lineNumber": 57,
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "https://il.godaddy.com/en",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "High",
+                    "isLinkPreload": true,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://il.godaddy.com/en/assets/ux/fonts/gd-sage/1.0/gd-sage-bold.woff2"
+                },
+                "requestId": "28109.3",
+                "timestamp": 67025.304078,
+                "type": "Font",
+                "wallTime": 1598955452.650355
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452654,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "lineNumber": 59,
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "https://il.godaddy.com/en",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "High",
+                    "isLinkPreload": true,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://il.godaddy.com/en/assets/ux/fonts/sherpa/2.0/gdsherpa-vf.woff2"
+                },
+                "requestId": "28109.4",
+                "timestamp": 67025.30443,
+                "type": "Font",
+                "wallTime": 1598955452.650707
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452654,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "lineNumber": 83,
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "https://il.godaddy.com/en",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "High",
+                    "isLinkPreload": true,
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://img6.wsimg.com/ux/fonts/uxfont/2.0/uxfont.woff2"
+                },
+                "requestId": "28109.5",
+                "timestamp": 67025.304789,
+                "type": "Font",
+                "wallTime": 1598955452.651066
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452655,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 16504,
+                "encodedDataLength": 0,
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67025.308098
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452657,
+        "message": {
+            "method": "Network.loadingFailed",
+            "params": {
+                "canceled": false,
+                "errorText": "net::ERR_CACHE_MISS",
+                "requestId": "28109.2",
+                "timestamp": 67025.308412,
+                "type": "Other"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452657,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.953634,
+                            "httpOnly": false,
+                            "name": "market",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "en-IL"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1598959051.953713,
+                            "httpOnly": true,
+                            "name": "AKA_A2",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": true,
+                            "session": false,
+                            "size": 7,
+                            "value": "A"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.977722,
+                            "httpOnly": false,
+                            "name": "currency",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "ILS"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1604139452.603428,
+                            "httpOnly": false,
+                            "name": "xpdpp3",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 7,
+                            "value": "B"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491452.603635,
+                            "httpOnly": false,
+                            "name": "visitor",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 47,
+                            "value": "vid=f9bac7e4-17c4-4af0-b580-01184eea73aa"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": -1,
+                            "httpOnly": false,
+                            "name": "fb_sessiontraffic",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": true,
+                            "size": 133,
+                            "value": "S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": -1,
+                            "httpOnly": false,
+                            "name": "pathway",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": true,
+                            "size": 43,
+                            "value": "f9bac7e4-17c4-4af0-b580-01184eea73aa"
+                        }
+                    }
+                ],
+                "headers": {
+                    ":authority": "il.godaddy.com",
+                    ":method": "GET",
+                    ":path": "/en/assets/wrhs/f6128f977bbe61937a278eb41819cca7/uxcore2.min.css",
+                    ":scheme": "https",
+                    "accept": "text/css,*/*;q=0.1",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "cookie": "market=en-IL; AKA_A2=A; currency=ILS; xpdpp3=B; visitor=vid=f9bac7e4-17c4-4af0-b580-01184eea73aa; fb_sessiontraffic=S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0; pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa",
+                    "referer": "https://il.godaddy.com/en",
+                    "sec-fetch-dest": "style",
+                    "sec-fetch-mode": "no-cors",
+                    "sec-fetch-site": "same-origin",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.6"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452658,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.953634,
+                            "httpOnly": false,
+                            "name": "market",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "en-IL"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1598959051.953713,
+                            "httpOnly": true,
+                            "name": "AKA_A2",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": true,
+                            "session": false,
+                            "size": 7,
+                            "value": "A"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491451.977722,
+                            "httpOnly": false,
+                            "name": "currency",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 11,
+                            "value": "ILS"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1604139452.603428,
+                            "httpOnly": false,
+                            "name": "xpdpp3",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 7,
+                            "value": "B"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": 1630491452.603635,
+                            "httpOnly": false,
+                            "name": "visitor",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": false,
+                            "size": 47,
+                            "value": "vid=f9bac7e4-17c4-4af0-b580-01184eea73aa"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": -1,
+                            "httpOnly": false,
+                            "name": "fb_sessiontraffic",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": true,
+                            "size": 133,
+                            "value": "S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0"
+                        }
+                    },
+                    {
+                        "blockedReasons": [],
+                        "cookie": {
+                            "domain": ".godaddy.com",
+                            "expires": -1,
+                            "httpOnly": false,
+                            "name": "pathway",
+                            "path": "/",
+                            "priority": "Medium",
+                            "secure": false,
+                            "session": true,
+                            "size": 43,
+                            "value": "f9bac7e4-17c4-4af0-b580-01184eea73aa"
+                        }
+                    }
+                ],
+                "headers": {
+                    ":authority": "il.godaddy.com",
+                    ":method": "GET",
+                    ":path": "/en/assets/cms/sales/css/sales-cms-qKtFgjpSudjJH430t8PH8ZbtfvlW46CtVhW7mJ4Jjaw1.min.css",
+                    ":scheme": "https",
+                    "accept": "text/css,*/*;q=0.1",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "cookie": "market=en-IL; AKA_A2=A; currency=ILS; xpdpp3=B; visitor=vid=f9bac7e4-17c4-4af0-b580-01184eea73aa; fb_sessiontraffic=S_TOUCH=09/01/2020%2010:17:32.074&pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa&V_DATE=09/01/2020%2003:17:32.074&pc=0; pathway=f9bac7e4-17c4-4af0-b580-01184eea73aa",
+                    "referer": "https://il.godaddy.com/en",
+                    "sec-fetch-dest": "style",
+                    "sec-fetch-mode": "no-cors",
+                    "sec-fetch-site": "same-origin",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.7"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452659,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "lineNumber": 114,
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Referer": "https://il.godaddy.com/en",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "VeryHigh",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://il.godaddy.com/en/assets/wrhs/f6128f977bbe61937a278eb41819cca7/uxcore2.min.css"
+                },
+                "requestId": "28109.6",
+                "timestamp": 67025.308815,
+                "type": "Stylesheet",
+                "wallTime": 1598955452.655091
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452659,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "lineNumber": 226,
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Referer": "https://il.godaddy.com/en",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "VeryHigh",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://il.godaddy.com/en/assets/cms/sales/css/sales-cms-qKtFgjpSudjJH430t8PH8ZbtfvlW46CtVhW7mJ4Jjaw1.min.css"
+                },
+                "requestId": "28109.7",
+                "timestamp": 67025.309172,
+                "type": "Stylesheet",
+                "wallTime": 1598955452.655449
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452679,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 65536,
+                "encodedDataLength": 0,
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67025.333129
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452682,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 57103,
+                "encodedDataLength": 0,
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67025.335594
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452685,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 40585,
+                "encodedDataLength": 0,
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67025.338744
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452688,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 22245,
+                "encodedDataLength": 0,
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67025.341793
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452701,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 139,
+                "encodedDataLength": 0,
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "timestamp": 67025.354706
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452702,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "accept-ranges": "bytes",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "max-age=31536000",
+                    "content-length": "40132",
+                    "content-type": "application/font-woff2",
+                    "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                    "etag": "\"36811569ebd41:0\"",
+                    "expires": "Wed, 01 Sep 2021 10:17:32 GMT",
+                    "last-modified": "Thu, 04 Apr 2019 17:08:28 GMT",
+                    "server": "Microsoft-IIS/8.5",
+                    "status": "200",
+                    "x-arc": "6",
+                    "x-frame-options": "DENY",
+                    "x-powered-by": "ASP.NET"
+                },
+                "requestId": "28109.3"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452707,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.3",
+                "response": {
+                    "connectionId": 25,
+                    "connectionReused": true,
+                    "encodedDataLength": 217,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "accept-ranges": "bytes",
+                        "access-control-allow-origin": "*",
+                        "cache-control": "max-age=31536000",
+                        "content-length": "40132",
+                        "content-type": "application/font-woff2",
+                        "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                        "etag": "\"36811569ebd41:0\"",
+                        "expires": "Wed, 01 Sep 2021 10:17:32 GMT",
+                        "last-modified": "Thu, 04 Apr 2019 17:08:28 GMT",
+                        "server": "Microsoft-IIS/8.5",
+                        "status": "200",
+                        "x-arc": "6",
+                        "x-frame-options": "DENY",
+                        "x-powered-by": "ASP.NET"
+                    },
+                    "mimeType": "application/font-woff2",
+                    "protocol": "h2",
+                    "remoteIPAddress": "92.122.128.207",
+                    "remotePort": 443,
+                    "responseTime": 1598955452701.315,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "unknown",
+                        "cipher": "AES_256_GCM",
+                        "issuer": "Go Daddy Secure Certificate Authority - G2",
+                        "keyExchange": "ECDHE_RSA",
+                        "keyExchangeGroup": "P-256",
+                        "protocol": "TLS 1.2",
+                        "sanList": [
+                            "*.godaddy.com",
+                            "godaddy.com"
+                        ],
+                        "signedCertificateTimestampList": [],
+                        "subjectName": "*.godaddy.com",
+                        "validFrom": 1550011144,
+                        "validTo": 1613169544
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 50.496,
+                        "requestTime": 67025.304696,
+                        "sendEnd": 1.915,
+                        "sendStart": 0.798,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://il.godaddy.com/en/assets/ux/fonts/gd-sage/1.0/gd-sage-bold.woff2"
+                },
+                "timestamp": 67025.358606,
+                "type": "Font"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452708,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 81368,
+                "requestId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.3547
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452710,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 40132,
+                "encodedDataLength": 0,
+                "requestId": "28109.3",
+                "timestamp": 67025.362522
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452710,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 0,
+                "encodedDataLength": 40249,
+                "requestId": "28109.3",
+                "timestamp": 67025.363237
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452710,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 40466,
+                "requestId": "28109.3",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.36255
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452725,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "accept-ranges": "bytes",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "max-age=31536000",
+                    "content-length": "43596",
+                    "content-type": "application/font-woff2",
+                    "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                    "etag": "\"029e468a32dd51:0\"",
+                    "expires": "Wed, 01 Sep 2021 10:17:32 GMT",
+                    "last-modified": "Fri, 28 Jun 2019 11:19:54 GMT",
+                    "server": "Microsoft-IIS/8.5",
+                    "status": "200",
+                    "x-arc": "6",
+                    "x-frame-options": "DENY",
+                    "x-powered-by": "ASP.NET"
+                },
+                "requestId": "28109.4"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452727,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.4",
+                "response": {
+                    "connectionId": 25,
+                    "connectionReused": true,
+                    "encodedDataLength": 217,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "accept-ranges": "bytes",
+                        "access-control-allow-origin": "*",
+                        "cache-control": "max-age=31536000",
+                        "content-length": "43596",
+                        "content-type": "application/font-woff2",
+                        "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                        "etag": "\"029e468a32dd51:0\"",
+                        "expires": "Wed, 01 Sep 2021 10:17:32 GMT",
+                        "last-modified": "Fri, 28 Jun 2019 11:19:54 GMT",
+                        "server": "Microsoft-IIS/8.5",
+                        "status": "200",
+                        "x-arc": "6",
+                        "x-frame-options": "DENY",
+                        "x-powered-by": "ASP.NET"
+                    },
+                    "mimeType": "application/font-woff2",
+                    "protocol": "h2",
+                    "remoteIPAddress": "92.122.128.207",
+                    "remotePort": 443,
+                    "responseTime": 1598955452724.614,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "unknown",
+                        "cipher": "AES_256_GCM",
+                        "issuer": "Go Daddy Secure Certificate Authority - G2",
+                        "keyExchange": "ECDHE_RSA",
+                        "keyExchangeGroup": "P-256",
+                        "protocol": "TLS 1.2",
+                        "sanList": [
+                            "*.godaddy.com",
+                            "godaddy.com"
+                        ],
+                        "signedCertificateTimestampList": [],
+                        "subjectName": "*.godaddy.com",
+                        "validFrom": 1550011144,
+                        "validTo": 1613169544
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 73.2,
+                        "requestTime": 67025.305282,
+                        "sendEnd": 1.391,
+                        "sendStart": 1.224,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://il.godaddy.com/en/assets/ux/fonts/sherpa/2.0/gdsherpa-vf.woff2"
+                },
+                "timestamp": 67025.380248,
+                "type": "Font"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452728,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 8972,
+                "encodedDataLength": 0,
+                "requestId": "28109.4",
+                "timestamp": 67025.3824
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452735,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 24513,
+                "encodedDataLength": 8999,
+                "requestId": "28109.4",
+                "timestamp": 67025.387662
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452737,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 9198,
+                "encodedDataLength": 24576,
+                "requestId": "28109.4",
+                "timestamp": 67025.390678
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452746,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 913,
+                "encodedDataLength": 9216,
+                "requestId": "28109.4",
+                "timestamp": 67025.399595
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452748,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "accept-ranges": "bytes",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "max-age=31536000",
+                    "content-encoding": "gzip",
+                    "content-length": "36037",
+                    "content-type": "text/css",
+                    "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                    "etag": "\"714eb5aca8ed1936b9313951ff9634e4\"",
+                    "expires": "Wed, 01 Sep 2021 10:17:32 GMT",
+                    "last-modified": "Tue, 07 Jul 2020 08:52:36 GMT",
+                    "server": "AmazonS3",
+                    "status": "200",
+                    "vary": "Accept-Encoding",
+                    "x-amz-id-2": "2fDhM0CYFabm5aQg356UBIyY4X8uX9SDSlfA9Anw5ZTcDudCIcKHZsi7gIHstWx+0Jhcx4569Og=",
+                    "x-amz-request-id": "53EB3277164A29FF",
+                    "x-amz-server-side-encryption": "AES256",
+                    "x-amz-version-id": "0uLeplnmKxs_TcDxDNoVh23BzQBf7g8H",
+                    "x-arc": "6",
+                    "x-frame-options": "DENY"
+                },
+                "requestId": "28109.6"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452750,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.6",
+                "response": {
+                    "connectionId": 25,
+                    "connectionReused": true,
+                    "encodedDataLength": 382,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "accept-ranges": "bytes",
+                        "access-control-allow-origin": "*",
+                        "cache-control": "max-age=31536000",
+                        "content-encoding": "gzip",
+                        "content-length": "36037",
+                        "content-type": "text/css",
+                        "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                        "etag": "\"714eb5aca8ed1936b9313951ff9634e4\"",
+                        "expires": "Wed, 01 Sep 2021 10:17:32 GMT",
+                        "last-modified": "Tue, 07 Jul 2020 08:52:36 GMT",
+                        "server": "AmazonS3",
+                        "status": "200",
+                        "vary": "Accept-Encoding",
+                        "x-amz-id-2": "2fDhM0CYFabm5aQg356UBIyY4X8uX9SDSlfA9Anw5ZTcDudCIcKHZsi7gIHstWx+0Jhcx4569Og=",
+                        "x-amz-request-id": "53EB3277164A29FF",
+                        "x-amz-server-side-encryption": "AES256",
+                        "x-amz-version-id": "0uLeplnmKxs_TcDxDNoVh23BzQBf7g8H",
+                        "x-arc": "6",
+                        "x-frame-options": "DENY"
+                    },
+                    "mimeType": "text/css",
+                    "protocol": "h2",
+                    "remoteIPAddress": "92.122.128.207",
+                    "remotePort": 443,
+                    "responseTime": 1598955452746.837,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "unknown",
+                        "cipher": "AES_256_GCM",
+                        "issuer": "Go Daddy Secure Certificate Authority - G2",
+                        "keyExchange": "ECDHE_RSA",
+                        "keyExchangeGroup": "P-256",
+                        "protocol": "TLS 1.2",
+                        "sanList": [
+                            "*.godaddy.com",
+                            "godaddy.com"
+                        ],
+                        "signedCertificateTimestampList": [],
+                        "subjectName": "*.godaddy.com",
+                        "validFrom": 1550011144,
+                        "validTo": 1613169544
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 91.544,
+                        "requestTime": 67025.30947,
+                        "sendEnd": 1.432,
+                        "sendStart": 0.98,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://il.godaddy.com/en/assets/wrhs/f6128f977bbe61937a278eb41819cca7/uxcore2.min.css"
+                },
+                "timestamp": 67025.402826,
+                "type": "Stylesheet"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452750,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 0,
+                "encodedDataLength": 922,
+                "requestId": "28109.4",
+                "timestamp": 67025.403563
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452750,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 43930,
+                "requestId": "28109.4",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.400083
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452753,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 30272,
+                "encodedDataLength": 0,
+                "requestId": "28109.6",
+                "timestamp": 67025.406456
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452754,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 65536,
+                "encodedDataLength": 6888,
+                "requestId": "28109.6",
+                "timestamp": 67025.407771
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452755,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 65536,
+                "encodedDataLength": 0,
+                "requestId": "28109.6",
+                "timestamp": 67025.407904
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452755,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 60267,
+                "encodedDataLength": 29257,
+                "requestId": "28109.6",
+                "timestamp": 67025.408265
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452764,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 36527,
+                "requestId": "28109.6",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.408322
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452765,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "accept-ranges": "bytes",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "max-age=31536000",
+                    "content-encoding": "gzip",
+                    "content-length": "37377",
+                    "content-type": "text/css",
+                    "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                    "etag": "\"80fa1836387bd61:0\"",
+                    "expires": "Wed, 01 Sep 2021 10:17:32 GMT",
+                    "last-modified": "Tue, 25 Aug 2020 23:34:01 GMT",
+                    "server": "Microsoft-IIS/8.5",
+                    "status": "200",
+                    "vary": "Accept-Encoding",
+                    "x-arc": "6",
+                    "x-frame-options": "DENY",
+                    "x-powered-by": "ASP.NET"
+                },
+                "requestId": "28109.7"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452768,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.7",
+                "response": {
+                    "connectionId": 25,
+                    "connectionReused": true,
+                    "encodedDataLength": 228,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "accept-ranges": "bytes",
+                        "access-control-allow-origin": "*",
+                        "cache-control": "max-age=31536000",
+                        "content-encoding": "gzip",
+                        "content-length": "37377",
+                        "content-type": "text/css",
+                        "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                        "etag": "\"80fa1836387bd61:0\"",
+                        "expires": "Wed, 01 Sep 2021 10:17:32 GMT",
+                        "last-modified": "Tue, 25 Aug 2020 23:34:01 GMT",
+                        "server": "Microsoft-IIS/8.5",
+                        "status": "200",
+                        "vary": "Accept-Encoding",
+                        "x-arc": "6",
+                        "x-frame-options": "DENY",
+                        "x-powered-by": "ASP.NET"
+                    },
+                    "mimeType": "text/css",
+                    "protocol": "h2",
+                    "remoteIPAddress": "92.122.128.207",
+                    "remotePort": 443,
+                    "responseTime": 1598955452764.621,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "unknown",
+                        "cipher": "AES_256_GCM",
+                        "issuer": "Go Daddy Secure Certificate Authority - G2",
+                        "keyExchange": "ECDHE_RSA",
+                        "keyExchangeGroup": "P-256",
+                        "protocol": "TLS 1.2",
+                        "sanList": [
+                            "*.godaddy.com",
+                            "godaddy.com"
+                        ],
+                        "signedCertificateTimestampList": [],
+                        "subjectName": "*.godaddy.com",
+                        "validFrom": 1550011144,
+                        "validTo": 1613169544
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": -1,
+                        "connectStart": -1,
+                        "dnsEnd": -1,
+                        "dnsStart": -1,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 108.245,
+                        "requestTime": 67025.310234,
+                        "sendEnd": 0.72,
+                        "sendStart": 0.574,
+                        "sslEnd": -1,
+                        "sslStart": -1,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://il.godaddy.com/en/assets/cms/sales/css/sales-cms-qKtFgjpSudjJH430t8PH8ZbtfvlW46CtVhW7mJ4Jjaw1.min.css"
+                },
+                "timestamp": 67025.421301,
+                "type": "Stylesheet"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452769,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 6874,
+                "encodedDataLength": 0,
+                "requestId": "28109.7",
+                "timestamp": 67025.422478
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452777,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 65536,
+                "encodedDataLength": 1820,
+                "requestId": "28109.7",
+                "timestamp": 67025.430398
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452777,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 57040,
+                "encodedDataLength": 17408,
+                "requestId": "28109.7",
+                "timestamp": 67025.430776
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452780,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 37562,
+                "encodedDataLength": 0,
+                "requestId": "28109.7",
+                "timestamp": 67025.43356
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452789,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 65536,
+                "encodedDataLength": 5411,
+                "requestId": "28109.7",
+                "timestamp": 67025.442738
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452789,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 27520,
+                "encodedDataLength": 12288,
+                "requestId": "28109.7",
+                "timestamp": 67025.443026
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452794,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 2979,
+                "encodedDataLength": 0,
+                "requestId": "28109.7",
+                "timestamp": 67025.44632
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452799,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [],
+                "headers": {
+                    ":authority": "img6.wsimg.com",
+                    ":method": "GET",
+                    ":path": "/ux/fonts/uxfont/2.0/uxfont.woff2",
+                    ":scheme": "https",
+                    "accept": "*/*",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "origin": "https://il.godaddy.com",
+                    "referer": "https://il.godaddy.com/en",
+                    "sec-fetch-dest": "font",
+                    "sec-fetch-mode": "cors",
+                    "sec-fetch-site": "cross-site",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.5"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452809,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 0,
+                "encodedDataLength": 558,
+                "requestId": "28109.7",
+                "timestamp": 67025.462524
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452809,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 37713,
+                "requestId": "28109.7",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.446355
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452814,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "accept-ranges": "bytes",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "max-age=2592000",
+                    "content-length": "12096",
+                    "content-type": "application/font-woff2",
+                    "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                    "etag": "\"f46b9269a278d51:0\"",
+                    "last-modified": "Tue, 01 Oct 2019 21:51:42 GMT",
+                    "server-timing": "cdn-cache; desc=HIT\nedge; dur=1",
+                    "status": "200",
+                    "timing-allow-origin": "*"
+                },
+                "requestId": "28109.5"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452960,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.5",
+                "response": {
+                    "connectionId": 62,
+                    "connectionReused": false,
+                    "encodedDataLength": 199,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "accept-ranges": "bytes",
+                        "access-control-allow-origin": "*",
+                        "cache-control": "max-age=2592000",
+                        "content-length": "12096",
+                        "content-type": "application/font-woff2",
+                        "date": "Tue, 01 Sep 2020 10:17:32 GMT",
+                        "etag": "\"f46b9269a278d51:0\"",
+                        "last-modified": "Tue, 01 Oct 2019 21:51:42 GMT",
+                        "server-timing": "cdn-cache; desc=HIT, edge; dur=1",
+                        "status": "200",
+                        "timing-allow-origin": "*"
+                    },
+                    "mimeType": "application/font-woff2",
+                    "protocol": "h2",
+                    "remoteIPAddress": "104.79.237.78",
+                    "remotePort": 443,
+                    "responseTime": 1598955452812.098,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "unknown",
+                        "cipher": "AES_256_GCM",
+                        "issuer": "Starfield Secure Certificate Authority - G2",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "*.wsimg.com",
+                            "wsimg.com"
+                        ],
+                        "signedCertificateTimestampList": [],
+                        "subjectName": "*.wsimg.com",
+                        "validFrom": 1537907262,
+                        "validTo": 1601065662
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": 146.552,
+                        "connectStart": 117.515,
+                        "dnsEnd": 117.515,
+                        "dnsStart": 0.429,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 159.98,
+                        "requestTime": 67025.305972,
+                        "sendEnd": 146.885,
+                        "sendStart": 146.738,
+                        "sslEnd": 146.541,
+                        "sslStart": 127.577,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://img6.wsimg.com/ux/fonts/uxfont/2.0/uxfont.woff2"
+                },
+                "timestamp": 67025.611836,
+                "type": "Font"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452960,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 12096,
+                "encodedDataLength": 0,
+                "requestId": "28109.5",
+                "timestamp": 67025.611982
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452960,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 0,
+                "encodedDataLength": 12141,
+                "requestId": "28109.5",
+                "timestamp": 67025.613546
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452960,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 12340,
+                "requestId": "28109.5",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.468194
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452991,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"24\" height=\"24\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"rgb(1,1,1)\" d=\"M45 181q-10-45 24-79l57-59 109 106-58 54q18 42 54 76 37 35 77 54l55-56 107 107-60 60q-25 25-62 25-11 0-17-2-107-23-183-102-80-75-103-184zm41-8q24 98 96 162 70 73 162 92h8q19 0 32-13l28-28-47-47-25 26-22 21-27-13q-49-23-88-62-39-37-62-87l-13-28 22-21 23-26-45-47-29 30q-16 16-13 41z\" /></svg>"
+                },
+                "requestId": "28109.22",
+                "timestamp": 67025.622348,
+                "type": "Image",
+                "wallTime": 1598955452.968625
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452991,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.22"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452991,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.22",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/svg+xml"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"24\" height=\"24\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"rgb(1,1,1)\" d=\"M45 181q-10-45 24-79l57-59 109 106-58 54q18 42 54 76 37 35 77 54l55-56 107 107-60 60q-25 25-62 25-11 0-17-2-107-23-183-102-80-75-103-184zm41-8q24 98 96 162 70 73 162 92h8q19 0 32-13l28-28-47-47-25 26-22 21-27-13q-49-23-88-62-39-37-62-87l-13-28 22-21 23-26-45-47-29 30q-16 16-13 41z\" /></svg>"
+                },
+                "timestamp": 67025.622393,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452992,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 403,
+                "encodedDataLength": 0,
+                "requestId": "28109.22",
+                "timestamp": 67025.622406
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955452992,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.22",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.622409
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453009,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "lineNumber": 3013,
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                },
+                "requestId": "28109.23",
+                "timestamp": 67025.662149,
+                "type": "Image",
+                "wallTime": 1598955453.008426
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453009,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.23"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453009,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.23",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/gif"
+                    },
+                    "mimeType": "image/gif",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                },
+                "timestamp": 67025.662191,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453009,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 37,
+                "encodedDataLength": 0,
+                "requestId": "28109.23",
+                "timestamp": 67025.662201
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453009,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.23",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.662204
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453089,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [],
+                "headers": {
+                    ":authority": "img1.wsimg.com",
+                    ":method": "GET",
+                    ":path": "/Sitecore/A/D/Search-icon.svg",
+                    ":scheme": "https",
+                    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "referer": "https://il.godaddy.com/en/assets/cms/sales/css/sales-cms-qKtFgjpSudjJH430t8PH8ZbtfvlW46CtVhW7mJ4Jjaw1.min.css",
+                    "sec-fetch-dest": "image",
+                    "sec-fetch-mode": "no-cors",
+                    "sec-fetch-site": "cross-site",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.27"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453100,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "accept-ranges": "bytes",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "max-age=31536000",
+                    "content-encoding": "gzip",
+                    "content-length": "344",
+                    "content-type": "image/svg+xml",
+                    "date": "Tue, 01 Sep 2020 10:17:33 GMT",
+                    "etag": "\"24f5cf6acedd51:0\"",
+                    "expires": "Wed, 01 Sep 2021 10:17:33 GMT",
+                    "last-modified": "Thu, 27 Feb 2020 20:25:18 GMT",
+                    "status": "200",
+                    "timing-allow-origin": "*",
+                    "vary": "Accept-Encoding"
+                },
+                "requestId": "28109.27"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"24\" height=\"24\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"rgb(1,1,1)\" d=\"M0 256Q0 150 75 75T256 0t181 75 75 181-75 181-181 75-181-75T0 256zm42 0q0 88 63 150.5T256 469t150.5-62.5T469 256t-62.5-151T256 42t-151 63-63 151zm122-59q0-42 24.5-66.5T254 106q39 0 66 22t27 60q0 26-11 43t-24 23-24 13.5-11 16.5v30h-42v-30q0-23 10.5-37t23.5-18.5 23.5-14.5 10.5-26q0-40-47-40t-47 49h-45zm62 177q0-13 8.5-21.5T256 344t22 8.5 9 21.5-9 22-22 9-21.5-9-8.5-22z\" /></svg>"
+                },
+                "requestId": "28109.24",
+                "timestamp": 67025.689051,
+                "type": "Image",
+                "wallTime": 1598955453.035328
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.24"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.24",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/svg+xml"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"24\" height=\"24\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"rgb(1,1,1)\" d=\"M0 256Q0 150 75 75T256 0t181 75 75 181-75 181-181 75-181-75T0 256zm42 0q0 88 63 150.5T256 469t150.5-62.5T469 256t-62.5-151T256 42t-151 63-63 151zm122-59q0-42 24.5-66.5T254 106q39 0 66 22t27 60q0 26-11 43t-24 23-24 13.5-11 16.5v30h-42v-30q0-23 10.5-37t23.5-18.5 23.5-14.5 10.5-26q0-40-47-40t-47 49h-45zm62 177q0-13 8.5-21.5T256 344t22 8.5 9 21.5-9 22-22 9-21.5-9-8.5-22z\" /></svg>"
+                },
+                "timestamp": 67025.689098,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 491,
+                "encodedDataLength": 0,
+                "requestId": "28109.24",
+                "timestamp": 67025.689113
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.24",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.689116
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"24\" height=\"24\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"rgb(1,1,1)\" d=\"M34 452q109-46 139-72l-7-7q-18-19-27.5-32t-23-52-13.5-86q0-54 13.5-91.5t37.5-56T201.5 29t54.5-8q64 0 108.5 40T409 201q0 109-64 170-4 4-6 7 35 31 139 72l-17 41q-118-48-154-84-13-13-13-27 0-15 22-37 15-15 23.5-27t18-42.5T367 203q0-44-10-73.5t-28.5-43-35-18T256 64t-37.5 4.5-35 17.5-28.5 42.5-10 72.5q0 40 10 71t18 41.5 23 27.5q21 21 21 37 0 15-12 27-35 35-154 86z\" /></svg>"
+                },
+                "requestId": "28109.25",
+                "timestamp": 67025.690968,
+                "type": "Image",
+                "wallTime": 1598955453.037245
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.25"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.25",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/svg+xml"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"24\" height=\"24\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"rgb(1,1,1)\" d=\"M34 452q109-46 139-72l-7-7q-18-19-27.5-32t-23-52-13.5-86q0-54 13.5-91.5t37.5-56T201.5 29t54.5-8q64 0 108.5 40T409 201q0 109-64 170-4 4-6 7 35 31 139 72l-17 41q-118-48-154-84-13-13-13-27 0-15 22-37 15-15 23.5-27t18-42.5T367 203q0-44-10-73.5t-28.5-43-35-18T256 64t-37.5 4.5-35 17.5-28.5 42.5-10 72.5q0 40 10 71t18 41.5 23 27.5q21 21 21 37 0 15-12 27-35 35-154 86z\" /></svg>"
+                },
+                "timestamp": 67025.691014,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 483,
+                "encodedDataLength": 0,
+                "requestId": "28109.25",
+                "timestamp": 67025.691029
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.25",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.691032
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"24\" height=\"24\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"rgb(1,1,1)\" d=\"M0 43V0h102l22 107h371l-39 204q-4 23-22.5 37.5T392 363H184q-23 0-40.5-14.5T121 311L67 43H0zm128 405q0-18 12.5-30.5T170 405q18 0 30.5 12.5T213 448t-12.5 30.5T170 491q-17 0-29.5-12.5T128 448zm4-299l31 154q3 17 21 17h208q19-2 22-17l29-154H132zm230 299q0-18 12.5-30.5T405 405q17 0 30 12.5t13 30.5-13 30.5-30 12.5q-18 0-30.5-12.5T362 448z\" /></svg>"
+                },
+                "requestId": "28109.26",
+                "timestamp": 67025.694761,
+                "type": "Image",
+                "wallTime": 1598955453.041037
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.26"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.26",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/svg+xml"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"24\" height=\"24\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"rgb(1,1,1)\" d=\"M0 43V0h102l22 107h371l-39 204q-4 23-22.5 37.5T392 363H184q-23 0-40.5-14.5T121 311L67 43H0zm128 405q0-18 12.5-30.5T170 405q18 0 30.5 12.5T213 448t-12.5 30.5T170 491q-17 0-29.5-12.5T128 448zm4-299l31 154q3 17 21 17h208q19-2 22-17l29-154H132zm230 299q0-18 12.5-30.5T405 405q17 0 30 12.5t13 30.5-13 30.5-30 12.5q-18 0-30.5-12.5T362 448z\" /></svg>"
+                },
+                "timestamp": 67025.694805,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 455,
+                "encodedDataLength": 0,
+                "requestId": "28109.26",
+                "timestamp": 67025.694819
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453130,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.26",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.694821
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453131,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en/assets/cms/sales/css/sales-cms-qKtFgjpSudjJH430t8PH8ZbtfvlW46CtVhW7mJ4Jjaw1.min.css"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Referer": "https://il.godaddy.com/en/assets/cms/sales/css/sales-cms-qKtFgjpSudjJH430t8PH8ZbtfvlW46CtVhW7mJ4Jjaw1.min.css",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://img1.wsimg.com/Sitecore/A/D/Search-icon.svg"
+                },
+                "requestId": "28109.27",
+                "timestamp": 67025.696245,
+                "type": "Image",
+                "wallTime": 1598955453.042522
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453131,
+        "message": {
+            "method": "Network.resourceChangedPriority",
+            "params": {
+                "newPriority": "High",
+                "requestId": "28109.27",
+                "timestamp": 67025.772966
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453155,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.27",
+                "response": {
+                    "connectionId": 76,
+                    "connectionReused": false,
+                    "encodedDataLength": 189,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "accept-ranges": "bytes",
+                        "access-control-allow-origin": "*",
+                        "cache-control": "max-age=31536000",
+                        "content-encoding": "gzip",
+                        "content-length": "344",
+                        "content-type": "image/svg+xml",
+                        "date": "Tue, 01 Sep 2020 10:17:33 GMT",
+                        "etag": "\"24f5cf6acedd51:0\"",
+                        "expires": "Wed, 01 Sep 2021 10:17:33 GMT",
+                        "last-modified": "Thu, 27 Feb 2020 20:25:18 GMT",
+                        "status": "200",
+                        "timing-allow-origin": "*",
+                        "vary": "Accept-Encoding"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "h2",
+                    "remoteIPAddress": "104.79.237.78",
+                    "remotePort": 443,
+                    "responseTime": 1598955453099.479,
+                    "securityDetails": {
+                        "certificateId": 0,
+                        "certificateTransparencyCompliance": "unknown",
+                        "cipher": "AES_256_GCM",
+                        "issuer": "Starfield Secure Certificate Authority - G2",
+                        "keyExchange": "",
+                        "keyExchangeGroup": "X25519",
+                        "protocol": "TLS 1.3",
+                        "sanList": [
+                            "*.wsimg.com",
+                            "wsimg.com"
+                        ],
+                        "signedCertificateTimestampList": [],
+                        "subjectName": "*.wsimg.com",
+                        "validFrom": 1537907262,
+                        "validTo": 1601065662
+                    },
+                    "securityState": "secure",
+                    "status": 200,
+                    "statusText": "",
+                    "timing": {
+                        "connectEnd": 44.449,
+                        "connectStart": 13.465,
+                        "dnsEnd": 13.465,
+                        "dnsStart": 0.181,
+                        "proxyEnd": -1,
+                        "proxyStart": -1,
+                        "pushEnd": 0,
+                        "pushStart": 0,
+                        "receiveHeadersEnd": 56.469,
+                        "requestTime": 67025.696877,
+                        "sendEnd": 45.142,
+                        "sendStart": 44.768,
+                        "sslEnd": 44.44,
+                        "sslStart": 23.521,
+                        "workerFetchStart": -1,
+                        "workerReady": -1,
+                        "workerRespondWithSettled": -1,
+                        "workerStart": -1
+                    },
+                    "url": "https://img1.wsimg.com/Sitecore/A/D/Search-icon.svg"
+                },
+                "timestamp": 67025.793355,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453155,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 633,
+                "encodedDataLength": 0,
+                "requestId": "28109.27",
+                "timestamp": 67025.793511
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453155,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 551,
+                "requestId": "28109.27",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.754433
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453246,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"1.5rem\" height=\"1.5rem\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M43 273v-34h364l-87-88 24-23 126 128-126 128-24-23 87-88H43z\" /></svg>"
+                },
+                "requestId": "28109.28",
+                "timestamp": 67025.863001,
+                "type": "Image",
+                "wallTime": 1598955453.209278
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453246,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.28"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.28",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/svg+xml"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/svg+xml;utf8,<svg width=\"1.5rem\" height=\"1.5rem\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M43 273v-34h364l-87-88 24-23 126 128-126 128-24-23 87-88H43z\" /></svg>"
+                },
+                "timestamp": 67025.863031,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 172,
+                "encodedDataLength": 0,
+                "requestId": "28109.28",
+                "timestamp": 67025.86304
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.28",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.863042
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"rgb(f,f,f)\" d=\"M12 2a10 10 0 0 0-1.56 19.88v-7H7.9V12h2.54V9.8a3.52 3.52 0 0 1 3.77-3.89 15.72 15.72 0 0 1 2.24.19v2.46h-1.26a1.45 1.45 0 0 0-1.63 1.56V12h2.78l-.45 2.89h-2.33v7A10 10 0 0 0 12 2z\"></path></svg>"
+                },
+                "requestId": "28109.34",
+                "timestamp": 67025.885523,
+                "type": "Image",
+                "wallTime": 1598955453.2318
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.34"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.34",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/svg+xml"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"rgb(f,f,f)\" d=\"M12 2a10 10 0 0 0-1.56 19.88v-7H7.9V12h2.54V9.8a3.52 3.52 0 0 1 3.77-3.89 15.72 15.72 0 0 1 2.24.19v2.46h-1.26a1.45 1.45 0 0 0-1.63 1.56V12h2.78l-.45 2.89h-2.33v7A10 10 0 0 0 12 2z\"></path></svg>"
+                },
+                "timestamp": 67025.885592,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 282,
+                "encodedDataLength": 0,
+                "requestId": "28109.34",
+                "timestamp": 67025.885608
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.34",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.885611
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"rgb(f,f,f)\" d=\"M22 15.15a9.89 9.89 0 0 1-.41 3.15 5.12 5.12 0 0 1-4 3.47A16.68 16.68 0 0 1 14 22H8.83a9.85 9.85 0 0 1-3.15-.41 5.13 5.13 0 0 1-3.48-4 13.8 13.8 0 0 1-.2-2.76v-6a9.58 9.58 0 0 1 .43-3.13 5.09 5.09 0 0 1 4-3.47A18.12 18.12 0 0 1 10 2h6.09a6.53 6.53 0 0 1 3.56 1.1 5.26 5.26 0 0 1 2.17 3.58A21.15 21.15 0 0 1 22 10v5.15zm-2-8.23A3.42 3.42 0 0 0 17.28 4a13.37 13.37 0 0 0-2.75-.21H9.47A14.51 14.51 0 0 0 6.92 4 3.36 3.36 0 0 0 4.1 6.43 9 9 0 0 0 3.83 9v4.08a30.6 30.6 0 0 0 .14 3.71A3.43 3.43 0 0 0 6.71 20a12.83 12.83 0 0 0 2.77.2h5a14.56 14.56 0 0 0 2.59-.2 3.4 3.4 0 0 0 2.59-1.83 5.23 5.23 0 0 0 .47-2.1c.08-1.36.07-2.73.06-4.09V9.46A18.25 18.25 0 0 0 20 6.92zm-8 10.21a5.14 5.14 0 1 1 5.14-5.08A5.12 5.12 0 0 1 12 17.13zm5.34-9.26a1.22 1.22 0 0 1-1.21-1.21 1.21 1.21 0 0 1 1.21-1.2 1.17 1.17 0 0 1 1.19 1.21 1.2 1.2 0 0 1-1.19 1.2zm-5.34.8A3.33 3.33 0 1 0 15.33 12 3.34 3.34 0 0 0 12 8.67z\"></path></svg>"
+                },
+                "requestId": "28109.35",
+                "timestamp": 67025.887668,
+                "type": "Image",
+                "wallTime": 1598955453.233945
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.35"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.35",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/svg+xml"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"rgb(f,f,f)\" d=\"M22 15.15a9.89 9.89 0 0 1-.41 3.15 5.12 5.12 0 0 1-4 3.47A16.68 16.68 0 0 1 14 22H8.83a9.85 9.85 0 0 1-3.15-.41 5.13 5.13 0 0 1-3.48-4 13.8 13.8 0 0 1-.2-2.76v-6a9.58 9.58 0 0 1 .43-3.13 5.09 5.09 0 0 1 4-3.47A18.12 18.12 0 0 1 10 2h6.09a6.53 6.53 0 0 1 3.56 1.1 5.26 5.26 0 0 1 2.17 3.58A21.15 21.15 0 0 1 22 10v5.15zm-2-8.23A3.42 3.42 0 0 0 17.28 4a13.37 13.37 0 0 0-2.75-.21H9.47A14.51 14.51 0 0 0 6.92 4 3.36 3.36 0 0 0 4.1 6.43 9 9 0 0 0 3.83 9v4.08a30.6 30.6 0 0 0 .14 3.71A3.43 3.43 0 0 0 6.71 20a12.83 12.83 0 0 0 2.77.2h5a14.56 14.56 0 0 0 2.59-.2 3.4 3.4 0 0 0 2.59-1.83 5.23 5.23 0 0 0 .47-2.1c.08-1.36.07-2.73.06-4.09V9.46A18.25 18.25 0 0 0 20 6.92zm-8 10.21a5.14 5.14 0 1 1 5.14-5.08A5.12 5.12 0 0 1 12 17.13zm5.34-9.26a1.22 1.22 0 0 1-1.21-1.21 1.21 1.21 0 0 1 1.21-1.2 1.17 1.17 0 0 1 1.19 1.21 1.2 1.2 0 0 1-1.19 1.2zm-5.34.8A3.33 3.33 0 1 0 15.33 12 3.34 3.34 0 0 0 12 8.67z\"></path></svg>"
+                },
+                "timestamp": 67025.887714,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 993,
+                "encodedDataLength": 0,
+                "requestId": "28109.35",
+                "timestamp": 67025.887731
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.35",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.887733
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"rgb(f,f,f)\" d=\"M8.3 20.1c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1-.7.3-1.5.5-2.4.6.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-1.5-1.6-4.1-1.7-5.8-.1-1.1 1-1.5 2.5-1.2 3.9-3.3-.2-6.3-1.7-8.4-4.3-1.1 1.9-.5 4.3 1.3 5.5-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.6 3.3 4-.6.2-1.2.2-1.9.1.5 1.7 2.1 2.8 3.8 2.8-1.5 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 2 1.2 4.2 1.8 6.4 1.8\"></path></svg>"
+                },
+                "requestId": "28109.36",
+                "timestamp": 67025.889472,
+                "type": "Image",
+                "wallTime": 1598955453.235749
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.36"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.36",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/svg+xml"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"rgb(f,f,f)\" d=\"M8.3 20.1c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1-.7.3-1.5.5-2.4.6.9-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-1.5-1.6-4.1-1.7-5.8-.1-1.1 1-1.5 2.5-1.2 3.9-3.3-.2-6.3-1.7-8.4-4.3-1.1 1.9-.5 4.3 1.3 5.5-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.6 3.3 4-.6.2-1.2.2-1.9.1.5 1.7 2.1 2.8 3.8 2.8-1.5 1.1-3.2 1.8-5.1 1.8-.3 0-.7 0-1-.1 2 1.2 4.2 1.8 6.4 1.8\"></path></svg>"
+                },
+                "timestamp": 67025.889512,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 446,
+                "encodedDataLength": 0,
+                "requestId": "28109.36",
+                "timestamp": 67025.889523
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.36",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.889525
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"rgb(f,f,f)\" d=\"M21.58 7.15a2.51 2.51 0 0 0-1.77-1.77C18.25 5 12 5 12 5s-6.25 0-7.81.43a2.51 2.51 0 0 0-1.77 1.72A26.28 26.28 0 0 0 2 12a26.28 26.28 0 0 0 .42 4.85 2.51 2.51 0 0 0 1.77 1.77c1.56.43 7.81.43 7.81.43s6.25 0 7.81-.43a2.51 2.51 0 0 0 1.77-1.77A26.28 26.28 0 0 0 22 12a26.28 26.28 0 0 0-.42-4.85zM10 15V9l5.23 3z\"></path></svg>"
+                },
+                "requestId": "28109.37",
+                "timestamp": 67025.891798,
+                "type": "Image",
+                "wallTime": 1598955453.238075
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.requestServedFromCache",
+            "params": {
+                "requestId": "28109.37"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.responseReceived",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "requestId": "28109.37",
+                "response": {
+                    "connectionId": 0,
+                    "connectionReused": false,
+                    "encodedDataLength": 0,
+                    "fromDiskCache": false,
+                    "fromPrefetchCache": false,
+                    "fromServiceWorker": false,
+                    "headers": {
+                        "Content-Type": "image/svg+xml"
+                    },
+                    "mimeType": "image/svg+xml",
+                    "protocol": "data",
+                    "securityState": "unknown",
+                    "status": 200,
+                    "statusText": "OK",
+                    "url": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path fill=\"rgb(f,f,f)\" d=\"M21.58 7.15a2.51 2.51 0 0 0-1.77-1.77C18.25 5 12 5 12 5s-6.25 0-7.81.43a2.51 2.51 0 0 0-1.77 1.72A26.28 26.28 0 0 0 2 12a26.28 26.28 0 0 0 .42 4.85 2.51 2.51 0 0 0 1.77 1.77c1.56.43 7.81.43 7.81.43s6.25 0 7.81-.43a2.51 2.51 0 0 0 1.77-1.77A26.28 26.28 0 0 0 22 12a26.28 26.28 0 0 0-.42-4.85zM10 15V9l5.23 3z\"></path></svg>"
+                },
+                "timestamp": 67025.891848,
+                "type": "Image"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.dataReceived",
+            "params": {
+                "dataLength": 409,
+                "encodedDataLength": 0,
+                "requestId": "28109.37",
+                "timestamp": 67025.891863
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453247,
+        "message": {
+            "method": "Network.loadingFinished",
+            "params": {
+                "encodedDataLength": 0,
+                "requestId": "28109.37",
+                "shouldReportCorbBlocking": false,
+                "timestamp": 67025.891865
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453248,
+        "message": {
+            "method": "Page.domContentEventFired",
+            "params": {
+                "timestamp": 67025.896638
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453314,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [],
+                "headers": {
+                    ":authority": "img6.wsimg.com",
+                    ":method": "GET",
+                    ":path": "/wrhs/490211f83e9efbc6ff197517df045159/tcc.min.js",
+                    ":scheme": "https",
+                    "accept": "*/*",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "referer": "https://il.godaddy.com/en",
+                    "sec-fetch-dest": "script",
+                    "sec-fetch-mode": "no-cors",
+                    "sec-fetch-site": "cross-site",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.38"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453314,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [],
+                "headers": {
+                    ":authority": "img6.wsimg.com",
+                    ":method": "GET",
+                    ":path": "/wrhs/d6c7b1acb132140b70d61ad9ce6bc527/heartbeat.min.js",
+                    ":scheme": "https",
+                    "accept": "*/*",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "referer": "https://il.godaddy.com/en",
+                    "sec-fetch-dest": "script",
+                    "sec-fetch-mode": "no-cors",
+                    "sec-fetch-site": "cross-site",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.39"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453317,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [],
+                "headers": {
+                    ":authority": "img1.wsimg.com",
+                    ":method": "GET",
+                    ":path": "/cms/sales/js/sales-cms-aYbg7JRraTFE-4r2ic8ODSJ5r3O0tYhNoWSRhZ_6J5U1.min.js",
+                    ":scheme": "https",
+                    "accept": "*/*",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "origin": "https://il.godaddy.com",
+                    "referer": "https://il.godaddy.com/en",
+                    "sec-fetch-dest": "script",
+                    "sec-fetch-mode": "cors",
+                    "sec-fetch-site": "cross-site",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.40"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453320,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "stack": {
+                        "callFrames": [
+                            {
+                                "columnNumber": 30,
+                                "functionName": "",
+                                "lineNumber": 146,
+                                "scriptId": "26",
+                                "url": "https://il.godaddy.com/en"
+                            }
+                        ],
+                        "parent": {
+                            "callFrames": [
+                                {
+                                    "columnNumber": 19,
+                                    "functionName": "",
+                                    "lineNumber": 143,
+                                    "scriptId": "26",
+                                    "url": "https://il.godaddy.com/en"
+                                }
+                            ],
+                            "description": "load"
+                        }
+                    },
+                    "type": "script"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Referer": "https://il.godaddy.com/en",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://img6.wsimg.com/wrhs/490211f83e9efbc6ff197517df045159/tcc.min.js"
+                },
+                "requestId": "28109.38",
+                "timestamp": 67025.966267,
+                "type": "Script",
+                "wallTime": 1598955453.312544
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453320,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "stack": {
+                        "callFrames": [
+                            {
+                                "columnNumber": 30,
+                                "functionName": "",
+                                "lineNumber": 153,
+                                "scriptId": "27",
+                                "url": "https://il.godaddy.com/en"
+                            }
+                        ],
+                        "parent": {
+                            "callFrames": [
+                                {
+                                    "columnNumber": 19,
+                                    "functionName": "",
+                                    "lineNumber": 150,
+                                    "scriptId": "27",
+                                    "url": "https://il.godaddy.com/en"
+                                }
+                            ],
+                            "description": "load"
+                        }
+                    },
+                    "type": "script"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Referer": "https://il.godaddy.com/en",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://img6.wsimg.com/wrhs/d6c7b1acb132140b70d61ad9ce6bc527/heartbeat.min.js"
+                },
+                "requestId": "28109.39",
+                "timestamp": 67025.966954,
+                "type": "Script",
+                "wallTime": 1598955453.313231
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453321,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "stack": {
+                        "callFrames": [
+                            {
+                                "columnNumber": 20,
+                                "functionName": "insertScript",
+                                "lineNumber": 3670,
+                                "scriptId": "61",
+                                "url": "https://il.godaddy.com/en"
+                            },
+                            {
+                                "columnNumber": 54,
+                                "functionName": "",
+                                "lineNumber": 3608,
+                                "scriptId": "61",
+                                "url": "https://il.godaddy.com/en"
+                            }
+                        ],
+                        "parent": {
+                            "callFrames": [
+                                {
+                                    "columnNumber": 15,
+                                    "functionName": "asyncLoad",
+                                    "lineNumber": 3608,
+                                    "scriptId": "61",
+                                    "url": "https://il.godaddy.com/en"
+                                },
+                                {
+                                    "columnNumber": 7,
+                                    "functionName": "",
+                                    "lineNumber": 3681,
+                                    "scriptId": "62",
+                                    "url": "https://il.godaddy.com/en"
+                                }
+                            ],
+                            "description": "load"
+                        }
+                    },
+                    "type": "script"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Origin": "https://il.godaddy.com",
+                        "Referer": "https://il.godaddy.com/en",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://img1.wsimg.com/cms/sales/js/sales-cms-aYbg7JRraTFE-4r2ic8ODSJ5r3O0tYhNoWSRhZ_6J5U1.min.js"
+                },
+                "requestId": "28109.40",
+                "timestamp": 67025.969958,
+                "type": "Script",
+                "wallTime": 1598955453.316235
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453321,
+        "message": {
+            "method": "Page.loadEventFired",
+            "params": {
+                "timestamp": 67025.970252
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453321,
+        "message": {
+            "method": "Page.frameStoppedLoading",
+            "params": {
+                "frameId": "D1D482F11081F9CFD81E05514104E228"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453327,
+        "message": {
+            "method": "Network.requestWillBeSentExtraInfo",
+            "params": {
+                "associatedCookies": [],
+                "headers": {
+                    ":authority": "img1.wsimg.com",
+                    ":method": "GET",
+                    ":path": "/cdn/Image/All/All/1/All/986021de-20ec-4c4c-b783-b12ad1ce9640/img-mrq-ME-Tablet.jpg",
+                    ":scheme": "https",
+                    "accept": "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+                    "accept-encoding": "gzip, deflate, br",
+                    "accept-language": "en-US,en;q=0.9",
+                    "referer": "https://il.godaddy.com/en",
+                    "sec-fetch-dest": "image",
+                    "sec-fetch-mode": "no-cors",
+                    "sec-fetch-site": "cross-site",
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                },
+                "requestId": "28109.41"
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453328,
+        "message": {
+            "method": "Network.requestWillBeSent",
+            "params": {
+                "documentURL": "https://il.godaddy.com/en",
+                "frameId": "D1D482F11081F9CFD81E05514104E228",
+                "hasUserGesture": false,
+                "initiator": {
+                    "type": "parser",
+                    "url": "https://il.godaddy.com/en"
+                },
+                "loaderId": "2FE274CAFD8A9ABB028DC1F281D783A5",
+                "request": {
+                    "headers": {
+                        "Referer": "https://il.godaddy.com/en",
+                        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36"
+                    },
+                    "initialPriority": "Low",
+                    "method": "GET",
+                    "mixedContentType": "none",
+                    "referrerPolicy": "no-referrer-when-downgrade",
+                    "url": "https://img1.wsimg.com/cdn/Image/All/All/1/All/986021de-20ec-4c4c-b783-b12ad1ce9640/img-mrq-ME-Tablet.jpg"
+                },
+                "requestId": "28109.41",
+                "timestamp": 67025.976796,
+                "type": "Image",
+                "wallTime": 1598955453.323073
+            }
+        },
+        "level": "INFO"
+    },
+    {
+        "timestamp": 1598955453328,
+        "message": {
+            "method": "Network.responseReceivedExtraInfo",
+            "params": {
+                "blockedCookies": [],
+                "headers": {
+                    "accept-ranges": "bytes",
+                    "access-control-allow-origin": "*",
+                    "cache-control": "max-age=31536000",
+                    "content-encoding": "br",
+                    "content-length": "22941",
+                    "content-type": "application/javascript",
+                    "date": "Tue, 01 Sep 2020 10:17:33 GMT",
+                    "etag": "\"490211f83e9efbc6ff197517df045159\"",
+                    "last-modified": "Fri, 14 Aug 2020 19:33:39 GMT",
+                    "server-timing": "cdn-cache; desc=HIT\nedge; dur=1",
+                    "status": "200",
+                    "timing-allow-origin": "*",
+                    "vary": "Accept-Encoding",
+                    "x-amz-id-2": "SyTHHeMK4k+yD7bh5nOLYZAHoQYShxtj9bYbgRdJq5KAEM9PSrcQEguw3rvPkpBAtsHAg17p16I=",
+                    "x-amz-request-id": "CC2DAE98CCA9AAD6",
+                    "x-amz-server-side-encryption": "AES256",
+                    "x-amz-version-id": "nCyyKqdJncZN4J5EFCeLSO7lGokiS_BN",
+                    "x-edgeconnect-midmile-rtt": "23\n143",
+                    "x-edgeconnect-origin-mex-latency": "307\n307"
+                },
+                "requestId": "28109.38"
+            }
+        },
+        "level": "INFO"
+    }
+]
